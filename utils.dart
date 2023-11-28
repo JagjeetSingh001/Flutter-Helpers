@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import './components/progress_loader.dart';
+import './progress_loader.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 
 Future<T?> push<T>(BuildContext context, Widget child) =>
